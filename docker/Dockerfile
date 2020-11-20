@@ -1,4 +1,4 @@
-from tensorflow/tensorflow:1.8.0-gpu-py3
+from tensorflow/tensorflow:1.8.0-py3
 
 run apt-get update && apt-get install -y \
 git \
@@ -40,4 +40,4 @@ ffmpeg
 run pip3 install \
 ffmpeg==1.4
 
-env TF_FORCE_GPU_ALLOW_GROWTH=true
+

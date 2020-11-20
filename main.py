@@ -228,7 +228,7 @@ if FLAGS.mode == 'inference':
     local_init_op = tf.local_variables_initializer()
 
     config = tf.ConfigProto()
-    config.gpu_options.allow_growth = True
+    # config.gpu_options.allow_growth = True
     if (FLAGS.output_pre == ""):
         image_dir = FLAGS.output_dir
     else:
